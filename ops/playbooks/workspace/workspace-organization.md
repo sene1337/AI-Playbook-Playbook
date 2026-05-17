@@ -55,7 +55,7 @@ workspace/
 | Path | Contents |
 |------|----------|
 | `docs/research/` | 1-3-1 analyses, deep dives, corpus queries |
-| `docs/projects/` | One folder per project |
+| `docs/projects/` | One folder per project, including project plans, DoDs, specs, architecture, state, transcripts, and project-local logs |
 | `docs/drafts/` | WIP, subagent output pending review |
 | `docs/content/` | Content pieces, Nostr drafts |
 | `docs/security/` | Security audits, access logs |
@@ -157,7 +157,7 @@ Practical rule: if losing the folder on reboot would break a command, service, o
 | Type | Where |
 |------|-------|
 | Transcripts | `docs/projects/<name>/transcripts/` |
-| Project docs | `docs/projects/<name>/` |
+| Project docs/plans/DoDs/specs/state | `docs/projects/<name>/` |
 
 ### Filing a New Document
 

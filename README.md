@@ -24,7 +24,7 @@ Recommended workspace layout:
 ```text
 workspace/
 ├── memory/     # what happened: daily logs, active tasks, state
-├── docs/       # what you know: projects, research, drafts, deliverables
+├── docs/       # what you know: projects, project plans/DoDs, research, drafts, deliverables
 ├── ops/        # how you work: playbooks, SOPs, decisions, operating rules
 ├── scripts/    # reusable helper scripts
 └── workbenches/# local dev/tooling sandboxes
@@ -56,6 +56,18 @@ The routing model is three-tier:
 - `memory/` = what happened
 - `docs/` = what we know
 - `ops/` = how we work
+
+Project-specific planning files live with the project, not in `ops/`:
+
+```text
+docs/projects/<project>/project-plan.md
+docs/projects/<project>/<project>-definition-of-done.md
+docs/projects/<project>/<project>-dod-context.md
+docs/projects/<project>/state.md
+docs/projects/<project>/architecture.md
+```
+
+`ops/` holds the reusable process for making plans. `docs/projects/` holds the actual plan for a specific project.
 
 New SOPs go here:
 

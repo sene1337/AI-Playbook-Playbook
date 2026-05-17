@@ -39,7 +39,7 @@ Ask: **Which tier does this belong to?**
 | Domain guide, frameworks, philosophy, anti-patterns | **Playbook** |
 | Step-by-step repeatable procedure | **SOP** |
 | 1-3-1, deep dive, corpus query, decision analysis | **Research** |
-| Project-specific (transcripts, plans, merge docs) | **Project file** |
+| Project-specific (project plans, DoDs, specs, state, transcripts, merge docs) | **Project file** |
 | Daily log, weekly plan, task state, journal | **Memory file** |
 | Subagent output pending review, WIP | **Draft** |
 | Live state tracker (cron roster, phone numbers, decision archive) | **Ops doc** |
@@ -52,7 +52,7 @@ Ask: **Which tier does this belong to?**
 | Playbook | `ops/playbooks/<category>/<name>.md` |
 | SOP | `ops/playbooks/<category>/sops/<name>.md` |
 | Research / 1-3-1 | `docs/research/<name>.md` |
-| Project file | `docs/projects/<project-name>/` |
+| Project file, including project plan / DoD / specs / state | `docs/projects/<project-name>/` |
 | Daily log | `memory/YYYY-MM-DD.md` |
 | Weekly plan | `ops/agenda/weekly/YYYY-MM-DD.md` |
 | Running agenda | `ops/agenda/<owner>-agenda.md` |
