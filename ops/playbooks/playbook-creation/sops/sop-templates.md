@@ -1,6 +1,7 @@
 # SOP Templates
 
 **Objective:** Ready-to-use skeletons for new SOPs. Grab one, fill it in, ship it.
+
 **Owner:** [AGENT_SLUG]
 
 ---

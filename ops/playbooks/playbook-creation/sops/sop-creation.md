@@ -1,7 +1,9 @@
 # Creating SOPs
 
 **Objective:** Repeatable process for turning knowledge into durable SOPs.
+
 **Prerequisites:** Read the Playbook Creation playbook (format specs + principles).
+
 **Owner:** [AGENT_SLUG]
 
 ---

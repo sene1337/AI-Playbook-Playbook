@@ -1,8 +1,11 @@
-## 1. Playbook Creation
+# Playbook Creation
 
 **Objective:** Every playbook and SOP is structured so someone new (or a post-compaction agent) can pick it up and execute without the author present. The system stays lightweight to avoid documentation overhead killing velocity.
+
 **Owner:** [AGENT_SLUG] — creates and maintains this playbook
+
 **Reviewer:** [HUMAN_SLUG] — validates playbooks/SOPs meet the standard
+
 **Review:** Weekly
 
 ---
