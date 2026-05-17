@@ -10,6 +10,7 @@ This is intentionally small and practical. The goal is not "documentation for do
 ops/playbooks/playbook-creation/playbook-creation.md
 ops/playbooks/playbook-creation/sops/sop-creation.md
 ops/playbooks/playbook-creation/sops/sop-templates.md
+ops/playbooks/playbook-creation/sops/tool-sop-template.md
 ops/playbooks/workspace/workspace-organization.md
 ops/playbooks/workspace/sops/file-routing.md
 examples/agent-setup/AGENTS.md
@@ -43,6 +44,7 @@ Example:
 ops/playbooks/playbook-creation/playbook-creation.md
 ops/playbooks/playbook-creation/sops/sop-creation.md
 ops/playbooks/playbook-creation/sops/sop-templates.md
+ops/playbooks/playbook-creation/sops/tool-sop-template.md
 ops/playbooks/workspace/workspace-organization.md
 ops/playbooks/workspace/sops/file-routing.md
 ```
@@ -138,10 +140,11 @@ Recommended location:
 ops/playbooks/tools/sops/<tool-name>.md
 ```
 
-Recommended template:
+Recommended templates:
 
 ```text
 ops/playbooks/playbook-creation/sops/sop-templates.md
+ops/playbooks/playbook-creation/sops/tool-sop-template.md
 ```
 
 A good Tool SOP includes:
