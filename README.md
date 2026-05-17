@@ -7,6 +7,8 @@ This is intentionally small and practical. The goal is not "documentation for do
 ## What is included
 
 ```text
+ops/playbooks/decisions/decision-making.md
+ops/playbooks/decisions/sops/1-3-1-framework.md
 ops/playbooks/playbook-creation/playbook-creation.md
 ops/playbooks/playbook-creation/sops/sop-creation.md
 ops/playbooks/playbook-creation/sops/sop-templates.md
@@ -16,6 +18,21 @@ ops/playbooks/workspace/sops/file-routing.md
 examples/agent-setup/AGENTS.md
 examples/agent-setup/TOOLS.md
 ```
+
+
+## Real example included
+
+This repo includes one complete playbook/SOP pair as a working example:
+
+```text
+ops/playbooks/decisions/decision-making.md
+ops/playbooks/decisions/sops/1-3-1-framework.md
+```
+
+Use it to see the split in practice:
+
+- `decision-making.md` = the domain playbook: principles, routing rules, failure modes, linked SOPs
+- `1-3-1-framework.md` = the SOP: exact step-by-step procedure and templates
 
 ## Where these files should live
 
@@ -41,6 +58,8 @@ ops/playbooks/tools/sops/<tool-name>.md
 Example:
 
 ```text
+ops/playbooks/decisions/decision-making.md
+ops/playbooks/decisions/sops/1-3-1-framework.md
 ops/playbooks/playbook-creation/playbook-creation.md
 ops/playbooks/playbook-creation/sops/sop-creation.md
 ops/playbooks/playbook-creation/sops/sop-templates.md
